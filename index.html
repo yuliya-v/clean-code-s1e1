@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="body">
   <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix">
     <a class="header__link" 
@@ -24,7 +24,7 @@
       <ul class="tasks-list" id="incomplete-tasks">
         <li class="tasks-list__task task">
           <input class="task__check" type="checkbox">
-          <label class="task__text">Pay Bills</label>
+          <label class="task__text task__text_unchanging">Pay Bills</label>
           <input class="task__text task__text_changeable" type="text">
           <button class="button button_edit">Edit</button>
           <button class="button button_delete">
@@ -33,7 +33,7 @@
         </li>
         <li class="tasks-list__task task task_edit-mode">
           <input class="task__check" type="checkbox">
-          <label class="task__text">Go Shopping</label>
+          <label class="task__text task__text_unchanging">Go Shopping</label>
           <input class="task__text task__text_changeable" type="text" value="Go Shopping">
           <button class="button button_edit">Save</button>
           <button class="button button_delete">
@@ -44,10 +44,10 @@
     </section>
     <section class="section">
       <h3 class="section__header">Completed</h3>
-      <ul class="tasks-list" id="completed-tasks">
+      <ul class="tasks-list tasks-list" id="completed-tasks">
         <li class="tasks-list__task task">
           <input class="task__check" type="checkbox" checked>
-          <label class="task__text">See the Doctor</label>
+          <label class="task__text task__text_unchanging">See the Doctor</label>
           <input class="task__text task__text_changeable" type="text">
           <button class="button button_edit">Edit</button>
           <button class="button button_delete">
