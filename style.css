@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.header .more_inf {
+.header .link {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-row {
   display: flex;
 }
 
@@ -103,7 +103,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-#topSectionForAddingElementToList h3 {
+.section h3 {
   display: block;
   margin: 0 0 20px;
 }
