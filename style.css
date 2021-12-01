@@ -151,7 +151,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .task__text_unchanging {
+.tasks-list_completed .task__text_unchanging {
   text-decoration: line-through;
   color: #888;
 }
